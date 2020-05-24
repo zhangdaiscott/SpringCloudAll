@@ -17,12 +17,15 @@ Spring Cloud Alibaba 解决方案 —— 学习示例代码
 - 11、rabitmq的环境搭建和使用
 - 12、maven多配置环境
 - 13、服务多实例运行
+- 14、分布定时任务 Quartz/XXL-JOB
+- 15、Seata分布式事务
+- 16、Spring Stream
 
 ### 常用注解
 
  注解 | 功能 | 位置 
  -|-|- 
-@EnableDiscoveryClient   | 启动nacos注册发现| 启动类 |
+@EnableDiscoveryClient   | 启动nacos服务注册发现| 启动类 |
 @EnableFeignClients   | 启动 Feign| 启动类 |
 @FeignClient  | 声明为Feign接口 | 接口类 |
 @EnableAdminServer| Spring Boot Admin Server监控服务端 | 启动类 |
