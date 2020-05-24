@@ -1,0 +1,34 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: jeecg-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+      #nacos
+      - id: nacos-route-produer
+        uri: lb://nacos-provider
+        predicates:
+        - Path=/echo/**
+      - id: nacos-route-customer
+        uri: lb://nacos-jeecg-customer
+        predicates:
+        - Path=/cust/**
+#      #path Unused nacos
+#      - id: path_route
+#        uri: http://localhost:8001
+#        predicates:
+#        - Path=/echo/**
+# 服务端点检查
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
