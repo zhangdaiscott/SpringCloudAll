@@ -6,17 +6,17 @@ Spring Cloud Alibaba 解决方案 —— 学习示例代码
 
 - 1、Nacos 服务注册和发现
 - 2、Nacos 统一配置中心
-- 3、服务多实例
-- 4、服务监控 sentinel
-- 5、feign配合sentinel使用
-- 6、SpringCloud Gateway
-- 7、服务监控 
+- 3、熔断降级限流 sentinel
+- 4、feign配合sentinel使用
+- 5、SpringCloud Gateway
+- 6、服务监控 actuator
+- 7、Spring Boot Admin服务监控
 - 8、链路跟踪 skywalking
-- 9、Spring Boot Admin服务监控
-- 10、Spring Security集成
-- 11、Spring Security oath2.0集成
-- 12、rabitmq的环境搭建和使用
-- 13、maven多配置环境
+- 9、Spring Security集成
+- 10、Spring Security OAuth2集成
+- 11、rabitmq的环境搭建和使用
+- 12、maven多配置环境
+- 13、服务多实例运行
 
 ### 常用注解
 
