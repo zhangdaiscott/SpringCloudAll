@@ -32,7 +32,7 @@ Spring Cloud Alibaba 解决方案 —— 学习示例代码
  软件 | 访问地址 | 账号 | 启动
  -|-|-|- 
 [nacos安装](https://nacos.io/zh-cn/docs/quick-start-docker.html)  | http://localhost:8848/nacos| nacos/nacos | docker启动容器 |
-[sentinel控制台](https://www.cnblogs.com/fx-blog/p/11720220.html)   | http://localhost:8080 |  sentinel/sentinel | 启动命令 java -jar sentinel-dashboard-1.6.3.jar  `D:\JAVA\alibaba-cloud`|
+[sentinel控制台](https://www.cnblogs.com/fx-blog/p/11720220.html)   | http://localhost:8080 |  sentinel/sentinel | 启动命令: java -jar sentinel-dashboard-1.6.3.jar  `本地目录： D:\JAVA\alibaba-cloud`|
 
 
 ### 测试请求
