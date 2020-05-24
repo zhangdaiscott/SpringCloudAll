@@ -28,6 +28,15 @@ Spring Cloud Alibaba 解决方案 —— 学习示例代码
 @SentinelRestTemplate|  |
 
 
+### 环境安装
+ 软件 | 访问地址 | 其他 
+ -|-|- 
+[nacos安装](https://nacos.io/zh-cn/docs/quick-start-docker.html)  | http://localhost:8848/nacos| 启动类 |
+[sentinel控制台](https://www.cnblogs.com/fx-blog/p/11720220.html)   | http://localhost:8080/#/dashboard |
+
+
+
+
 ### 技巧与工具
 - [在线工具yml和属性互转](https://www.toyaml.com/index.html)
 -  yml文件注意（禁用tab，用俩空格）
@@ -37,6 +46,12 @@ Spring Cloud Alibaba 解决方案 —— 学习示例代码
 - IDEA如何启动多实例
 - idea run dashboard
 
+### 官方文档
+- [spring-cloud-alibaba](https://github.com/alibaba/spring-cloud-alibaba/blob/master/README-zh.md)
+- [spring-cloud-alibaba > html](https://spring-cloud-alibaba-group.github.io/github-pages/greenwich/spring-cloud-alibaba.html#_introduction_of_sentinel)
+- [spring-cloud-gateway](https://cloud.spring.io/spring-cloud-static/spring-cloud-gateway/2.2.2.RELEASE/reference/html/#the-path-route-predicate-factory)
+- [spring-security](https://docs.spring.io/spring-security/site/docs/current/reference/html5/#getting)
+- [spring-security-oauth](https://projects.spring.io/spring-security-oauth/docs/oauth2.html)
 
 
 ### 参考文献
