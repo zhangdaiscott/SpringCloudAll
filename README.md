@@ -9,15 +9,14 @@ Spring Cloud Alibaba 解决方案 —— 学习示例代码
 - 3、服务多实例
 - 4、服务监控 sentinel
 - 5、feign配合sentinel使用
-- 6、SpringCloud gateway
+- 6、SpringCloud Gateway
 - 7、服务监控 
 - 8、链路跟踪 skywalking
 - 9、Spring Boot Admin服务监控
-     https://www.jianshu.com/p/1749f04105fb
-- 10、spring security集成
-- 11、spring security oath2.0集成
+- 10、Spring Security集成
+- 11、Spring Security oath2.0集成
 - 12、rabitmq的环境搭建和使用
-
+- 13、maven多配置环境
 
 ### 常用注解
 
@@ -44,3 +43,4 @@ Spring Cloud Alibaba 解决方案 —— 学习示例代码
 - @SentinelRestTemplate
 - gateway方式支持服务名方式访问
 - sentinel服务台可以不用
+- [Spring Boot Admin服务监控](https://www.jianshu.com/p/1749f04105fb)
