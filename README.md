@@ -17,9 +17,10 @@ Spring Cloud Alibaba 解决方案 —— 学习示例代码
 - 11、rabitmq的环境搭建和使用
 - 12、maven多配置环境
 - 13、服务多实例运行
-- 14、分布定时任务 Quartz/XXL-JOB
+- 14、分布定时任务 Quartz/XXL-JOB/elastic-job
 - 15、Seata分布式事务
 - 16、Spring Stream
+- 17、分布式文件系统 minio、阿里OSS
 
 ### 常用注解
 
@@ -79,6 +80,7 @@ http://localhost:9111/user
 - [spring-cloud-gateway](https://cloud.spring.io/spring-cloud-static/spring-cloud-gateway/2.2.2.RELEASE/reference/html/#the-path-route-predicate-factory)
 - [spring-security](https://docs.spring.io/spring-security/site/docs/current/reference/html5/#getting)
 - [spring-security-oauth](https://projects.spring.io/spring-security-oauth/docs/oauth2.html)
+- [Seata 分布式事务](https://seata.io/zh-cn/index.html)
 
 
 ### 参考文献
@@ -86,6 +88,8 @@ http://localhost:9111/user
 - 谷歌JSON插件 JSON-Handle
 - [Spring Boot Admin服务监控](https://www.jianshu.com/p/1749f04105fb)
 - [容器使用Undertow替换tomcat](https://blog.csdn.net/moshowgame/article/details/84985765)
+- [Seata分布式事务 整合 SpringCloud](https://seata.io/zh-cn/blog/integrate-seata-with-spring-cloud.html)
+
 
 
 ### 技巧与工具
