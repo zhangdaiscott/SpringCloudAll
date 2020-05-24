@@ -16,7 +16,7 @@ spring:
       - id: nacos-route-produer
         uri: lb://nacos-provider
         predicates:
-        - Path=/echo/**
+        - Path=/echo/**,/test/**,/sys/**
       - id: nacos-route-customer
         uri: lb://nacos-jeecg-customer
         predicates:

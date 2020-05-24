@@ -1,7 +1,7 @@
 # SpringCloudAll
 Spring Cloud Alibaba 解决方案 —— 学习示例代码
 
-### 技术体系
+### 技术体系【知识点】
 
 
 - 1、Nacos 服务注册和发现
@@ -24,23 +24,22 @@ Spring Cloud Alibaba 解决方案 —— 学习示例代码
  -|-|- 
 @EnableDiscoveryClient   | 启动nacos注册发现| 启动类 |
 @EnableFeignClients   | 启动 Feign| 启动类 |
-@SentinelRestTemplate|  |
 @FeignClient  | 声明为Feign接口 | 接口类 |
+@SentinelRestTemplate|  |
 
 
 ### 技巧与工具
 - [在线工具yml和属性互转](https://www.toyaml.com/index.html)
+-  yml文件注意（禁用tab，用俩空格）
 - 谷歌JSON插件 JSON-Handle
-- @SentinelRestTemplate
-- gateway方式支持服务名方式访问
-- sentinel服务台可以不用
+- gateway 支持服务名方式访问
+- sentinel 服务台可以不用
+- IDEA如何启动多实例
+- idea run dashboard
 
 
 
 ### 参考文献
 - [微服务后，Swagger接口统一文档](https://blog.csdn.net/qq_31748587/article/details/102563155)
 - 谷歌JSON插件 JSON-Handle
-- @SentinelRestTemplate
-- gateway方式支持服务名方式访问
-- sentinel服务台可以不用
 - [Spring Boot Admin服务监控](https://www.jianshu.com/p/1749f04105fb)
