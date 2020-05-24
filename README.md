@@ -25,6 +25,7 @@ Spring Cloud Alibaba 解决方案 —— 学习示例代码
 @EnableDiscoveryClient   | 启动nacos注册发现| 启动类 |
 @EnableFeignClients   | 启动 Feign| 启动类 |
 @FeignClient  | 声明为Feign接口 | 接口类 |
+@EnableAdminServer| Spring Boot Admin Server监控服务端 | 启动类 |
 @SentinelRestTemplate|  |
 
 
