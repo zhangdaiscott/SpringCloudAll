@@ -31,20 +31,11 @@ Spring Cloud Alibaba 解决方案 —— 学习示例代码
 ### 环境安装
  软件 | 访问地址 | 其他 
  -|-|- 
-[nacos安装](https://nacos.io/zh-cn/docs/quick-start-docker.html)  | http://localhost:8848/nacos| 启动类 |
-[sentinel控制台](https://www.cnblogs.com/fx-blog/p/11720220.html)   | http://localhost:8080/#/dashboard |
+[nacos安装](https://nacos.io/zh-cn/docs/quick-start-docker.html)  | http://localhost:8848/nacos|  |
+[sentinel控制台](https://www.cnblogs.com/fx-blog/p/11720220.html)   | http://localhost:8080/#/dashboard |  |
 
 
 
-
-### 技巧与工具
-- [在线工具yml和属性互转](https://www.toyaml.com/index.html)
--  yml文件注意（禁用tab，用俩空格）
-- 谷歌JSON插件 JSON-Handle
-- gateway 支持服务名方式访问
-- sentinel 服务台可以不用
-- IDEA如何启动多实例
-- idea run dashboard
 
 ### 官方文档
 - [spring-cloud-alibaba](https://github.com/alibaba/spring-cloud-alibaba/blob/master/README-zh.md)
@@ -58,3 +49,14 @@ Spring Cloud Alibaba 解决方案 —— 学习示例代码
 - [微服务后，Swagger接口统一文档](https://blog.csdn.net/qq_31748587/article/details/102563155)
 - 谷歌JSON插件 JSON-Handle
 - [Spring Boot Admin服务监控](https://www.jianshu.com/p/1749f04105fb)
+
+
+
+### 技巧与工具
+- [在线工具yml和属性互转](https://www.toyaml.com/index.html)
+-  yml文件注意（禁用tab，用俩空格）
+- 谷歌JSON插件 JSON-Handle
+- gateway 支持服务名方式访问
+- sentinel 服务台可以不用
+- IDEA如何启动多实例
+- idea run dashboard
