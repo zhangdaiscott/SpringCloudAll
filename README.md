@@ -32,35 +32,36 @@ Spring Cloud Alibaba 解决方案 —— 学习示例代码
  软件 | 访问地址 | 账号 | 其他
  -|-|-|- 
 [nacos安装](https://nacos.io/zh-cn/docs/quick-start-docker.html)  | http://localhost:8848/nacos| nacos/nacos | docker启动容器 |
-[sentinel控制台](https://www.cnblogs.com/fx-blog/p/11720220.html)   | http://localhost:8080 |  sentinel/sentinel | 启动命令 java -jar sentinel-dashboard-1.6.3.jar|
+[sentinel控制台](https://www.cnblogs.com/fx-blog/p/11720220.html)   | http://localhost:8080 |  sentinel/sentinel | `D:\JAVA\alibaba-cloud` 启动命令 java -jar sentinel-dashboard-1.6.3.jar|
 
 
 ### 测试请求
 
  ``` xml
-服务端生产者接口（启动多实例）
+# 服务端生产者接口（启动多实例）
 http://localhost:8061/echo/123
+http://localhost:8061/actuator | 服务端点检查
+http://localhost:8061/actuator/nacos-discovery | 服务端点检查
+## 服务端_多实例测试
 http://localhost:8062/echo/123 [修改nacos配置端口，启动多实例]
 http://localhost:8063/echo/123 [修改nacos配置端口，启动多实例]
 
 
-服务端点检查
-http://localhost:8061/actuator
-http://localhost:8061/actuator/nacos-discovery
-
-
-客户端消费者接口
+# 客户端消费者接口
 http://localhost:8071/cust/echo/feign
-http://localhost:8072/cust/echo/restTemplate
+http://localhost:8071/cust/echo/restTemplate
+## 客户端_多实例测试
+http://localhost:8072/cust/echo/feign [修改端口，启动多实例]
+http://localhost:8073/cust/echo/feign [修改端口，启动多实例]
 
 
-Gateway(需传递 Head参数 => Authorization:{任意值})
+# Gateway(需传递 Head参数 => Authorization:{任意值})
 http://localhost:9999/echo/22
 
-SpringAdmin
+# SpringAdmin
 http://localhost:9112
 
-Security
+# Security
 http://localhost:9111/user
 (admin/123456)
  ```
