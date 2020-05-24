@@ -29,10 +29,41 @@ Spring Cloud Alibaba 解决方案 —— 学习示例代码
 
 
 ### 环境安装
- 软件 | 访问地址 | 其他 
- -|-|- 
-[nacos安装](https://nacos.io/zh-cn/docs/quick-start-docker.html)  | http://localhost:8848/nacos|  |
-[sentinel控制台](https://www.cnblogs.com/fx-blog/p/11720220.html)   | http://localhost:8080/#/dashboard |  |
+ 软件 | 访问地址 | 账号 | 其他
+ -|-|-|- 
+[nacos安装](https://nacos.io/zh-cn/docs/quick-start-docker.html)  | http://localhost:8848/nacos| nacos/nacos | docker启动容器 |
+[sentinel控制台](https://www.cnblogs.com/fx-blog/p/11720220.html)   | http://localhost:8080 |  sentinel/sentinel | 启动命令 java -jar sentinel-dashboard-1.6.3.jar|
+
+
+### 测试请求
+
+ ``` xml
+服务端生产者接口（启动多实例）
+http://localhost:8061/echo/123
+http://localhost:8062/echo/123 [修改nacos配置端口，启动多实例]
+http://localhost:8063/echo/123 [修改nacos配置端口，启动多实例]
+
+
+服务端点检查
+http://localhost:8061/actuator
+http://localhost:8061/actuator/nacos-discovery
+
+
+客户端消费者接口
+http://localhost:8071/cust/echo/feign
+http://localhost:8072/cust/echo/restTemplate
+
+
+Gateway(需传递 Head参数 => Authorization:{任意值})
+http://localhost:9999/echo/22
+
+SpringAdmin
+http://localhost:9112
+
+Security
+http://localhost:9111/user
+(admin/123456)
+ ```
 
 
 
@@ -49,7 +80,7 @@ Spring Cloud Alibaba 解决方案 —— 学习示例代码
 - [微服务后，Swagger接口统一文档](https://blog.csdn.net/qq_31748587/article/details/102563155)
 - 谷歌JSON插件 JSON-Handle
 - [Spring Boot Admin服务监控](https://www.jianshu.com/p/1749f04105fb)
-
+- [容器使用Undertow替换tomcat](https://blog.csdn.net/moshowgame/article/details/84985765)
 
 
 ### 技巧与工具
@@ -58,5 +89,5 @@ Spring Cloud Alibaba 解决方案 —— 学习示例代码
 - 谷歌JSON插件 JSON-Handle
 - gateway 支持服务名方式访问
 - sentinel 服务台可以不用
-- IDEA如何启动多实例
-- idea run dashboard
+- [IDEA如何启动多实例](https://blog.csdn.net/zhou520yue520/article/details/81167841)
+- [idea run dashboard](https://blog.csdn.net/m18633778874/article/details/82687389)
