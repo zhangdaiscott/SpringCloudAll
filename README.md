@@ -81,6 +81,8 @@ http://localhost:9111/user
 - [spring-security](https://docs.spring.io/spring-security/site/docs/current/reference/html5/#getting)
 - [spring-security-oauth](https://projects.spring.io/spring-security-oauth/docs/oauth2.html)
 - [Seata 分布式事务](https://seata.io/zh-cn/index.html)
+- [Spring Cloud Stream中文指导手册](https://m.wang1314.com/doc/webapp/topic/20971999.html)
+
 
 
 ### 参考文献
