@@ -89,8 +89,16 @@ http://localhost:9111/user
 - [微服务后，Swagger接口统一文档](https://blog.csdn.net/qq_31748587/article/details/102563155)
 - 谷歌JSON插件 JSON-Handle
 - [Spring Boot Admin服务监控](https://www.jianshu.com/p/1749f04105fb)
+- [Spring Boot Admin client不再需要](https://my.oschina.net/u/1428688/blog/3110948)
+- [Spring Boot Admin+Nacos从入门到上线](https://blog.csdn.net/qq_38496561/article/details/105945386)
 - [容器使用Undertow替换tomcat](https://blog.csdn.net/moshowgame/article/details/84985765)
 - [Seata分布式事务 整合 SpringCloud](https://seata.io/zh-cn/blog/integrate-seata-with-spring-cloud.html)
+- [Gateway 之限流操作  一](https://www.toutiao.com/i6729667803353186827)
+- [Gateway 之限流操作  二](https://blog.csdn.net/u010889990/article/details/81169328)
+- [Gateway 之限流操作  三](https://www.cnblogs.com/pu20065226/p/11426279.html)
+- [Gateway 实现降级攻略](https://blog.csdn.net/SuperBins/article/details/94732087)
+
+
 
 
 
@@ -102,3 +110,4 @@ http://localhost:9111/user
 - sentinel 服务台可以不用
 - [IDEA如何启动多实例](https://blog.csdn.net/zhou520yue520/article/details/81167841)
 - [idea run dashboard](https://blog.csdn.net/m18633778874/article/details/82687389)
+- [idea的Git主干同步到分支](https://blog.csdn.net/weixin_40836179/article/details/87003899)
