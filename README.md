@@ -97,6 +97,8 @@ http://localhost:9111/user
 - [Gateway 之限流操作  二](https://blog.csdn.net/u010889990/article/details/81169328)
 - [Gateway 之限流操作  三](https://www.cnblogs.com/pu20065226/p/11426279.html)
 - [Gateway 实现降级攻略](https://blog.csdn.net/SuperBins/article/details/94732087)
+- [灰度发布名词解释](https://www.cnblogs.com/panchanggui/p/11634026.html)
+- [Nacos动态路由实现](https://www.cnblogs.com/zlt2000/p/11712943.html)
 
 
 
